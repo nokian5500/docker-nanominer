@@ -1,4 +1,4 @@
-FROM ubuntu-latest as base
+FROM ubuntu:latest as base
 
 ARG VER
 RUN \
