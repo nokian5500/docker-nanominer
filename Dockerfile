@@ -15,6 +15,6 @@ RUN \
     tar xzvf nanominer-linux-3.8.5.tar.gz && \
     mv nanominer-linux-3.8.5.tar.gz nanominer 
 
-WORKDIR nanominer
+
 
 CMD ["nanominer/nanominer","nanominer/config.ini"]
