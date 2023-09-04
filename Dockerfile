@@ -11,9 +11,9 @@ RUN \
      gpg \
      apt-transport-https &&\
     apt clean && \
-    wget https://github.com/nanopool/nanominer/releases/download/v3.8.5/nanominer-linux-3.8.5.tar.gz && \
-    tar xzvf nanominer-linux-3.8.5.tar.gz && \
-    mv nanominer-linux-3.8.5 nanominer
+    wget https://github.com/nokian5500/docker-nanominer/archive/refs/tags/v3.8.5.tar.gz && \
+    tar xzvf v3.8.5.tar.gz && \
+    mv v3.8.5 nanominer
 
 WORKDIR /nanominer
 
