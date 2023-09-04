@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nanominer:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/nanominer:3.8.5
