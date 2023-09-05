@@ -2,7 +2,7 @@
 Description=lin
 
 [Service]
-ExecStart=/home/lin/nanominer
+ExecStart=/home/lin./nanominer
 
 [Install]
 WantedBy=multi-user.target
